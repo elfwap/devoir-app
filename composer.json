@@ -1,0 +1,33 @@
+{
+	"keywords" : [
+		"project",
+		"devoir",
+		"dev",
+		"devphp",
+		"devoirPHP"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"DevoirApp\\" : "src"
+		}
+	},
+	"name" : "elfwap/devoir-app",
+	"type" : "project",
+	"description" : "Devoir PHP Framework",
+	"require" : {
+		"php" : ">=7.4",
+		"elfwap/devoir" : "dev-master"
+	},
+	"minimum-stability" : "dev",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Muhammad Tahir Abdullahi",
+			"email" : "muhammedtahirabdullahi@gmail.com",
+			"homepage" : "https://github.com/elfwap",
+			"role" : "Developer"
+		}
+	],
+	"support" : {
+		"email" : "elftech.inc@gmail.com"
+	}
+}
