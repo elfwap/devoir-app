@@ -1,0 +1,69 @@
+{
+    "packages": [
+        {
+            "name": "elfwap/devoir",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elfwap/devoir.git",
+                "reference": "590465a29cd0c47d830a0e49398d751fdb663fcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elfwap/devoir/zipball/590465a29cd0c47d830a0e49398d751fdb663fcb",
+                "reference": "590465a29cd0c47d830a0e49398d751fdb663fcb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2021-09-03T05:22:06+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Devoir\\": "src"
+                },
+                "psr-0": {
+                    "Devoir\\": "src"
+                },
+                "files": [
+                    "src/functions.php",
+                    "src/constants.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Tahir Abdullahi",
+                    "email": "muhammedtahirabdullahi@gmail.com",
+                    "homepage": "https://github.com/elfwap",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Devoir PHP Framework core library.",
+            "keywords": [
+                "Devoir",
+                "dev",
+                "dvl",
+                "lib",
+                "libraries",
+                "library",
+                "libs"
+            ],
+            "support": {
+                "email": "elftech.inc@gmail.com",
+                "issues": "https://github.com/elfwap/devoir/issues",
+                "source": "https://github.com/elftwap/devoir/"
+            },
+            "install-path": "../elfwap/devoir"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
