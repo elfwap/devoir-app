@@ -1,8 +1,14 @@
-<?php 
-use Composer\Autoload\ClassLoader;
+<?php
 
-require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'constants.php';
-require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'functions.php';
 require dirname(__DIR__) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
-echo APPLICATION_NAMESPACE;
+use Devoir\Exception\DevoirException;
+use DevoirApp\Application;
+
+try{
+	$app = new Application(dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
+}
+catch (DevoirException $dexcept)
+{
+	
+}
