@@ -11,14 +11,7 @@
 	"autoload" : {
 		"psr-4" : {
 			"Devoir\\" : "src"
-		},
-		"psr-0" : {
-			"Devoir\\" : "src"
-		},
-		"files" : [
-			"src/functions.php",
-			"src/constants.php"
-		]
+		}
 	},
 	"name" : "elfwap/devoir",
 	"type" : "library",

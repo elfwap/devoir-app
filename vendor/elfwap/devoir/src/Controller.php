@@ -590,7 +590,7 @@ class Controller extends Devoir implements ControllerInterface, ControllerEventI
 	 */
 	public function isRedirect(): bool
 	{
-		return ($this->getStatusCode() > 299 && $this->getStatusCode() < 400) ? true : false;
+		return ($this->getStatusCode() > 299 && $this->getStatusCode() < 400) ? Yes : No;
 	}
 	/**
 	 * 
@@ -599,7 +599,7 @@ class Controller extends Devoir implements ControllerInterface, ControllerEventI
 	 */
 	public function isServerError(): bool
 	{
-		return ($this->getStatusCode() > 499 && $this->getStatusCode() < 600) ? true : false;
+		return ($this->getStatusCode() > 499 && $this->getStatusCode() < 600) ? Yes : No;
 	}
 	/**
 	 * 
@@ -608,7 +608,7 @@ class Controller extends Devoir implements ControllerInterface, ControllerEventI
 	 */
 	public function isClientError(): bool
 	{
-		return ($this->getStatusCode() > 399 && $this->getStatusCode() < 500) ? true : false;
+		return ($this->getStatusCode() > 399 && $this->getStatusCode() < 500) ? Yes : No;
 	}
 	public function setLocation(?string $location): ResponseInterface
 	{}

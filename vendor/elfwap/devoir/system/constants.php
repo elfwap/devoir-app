@@ -1,5 +1,4 @@
 <?php
-namespace Devoir;
 
 //MISC CONSTANTS
 if (!defined('YES')) define('YES', true);
@@ -24,20 +23,20 @@ if(!defined('MIL_WEEK')) define('MIL_WEEK', 604800000);
 if(!defined('MIL_MONTH')) define('MIL_MONTH', 2592000000);
 if(!defined('MIL_YEAR')) define('MIL_YEAR', 31536000000);
 //APPLICATION PROPERTIES
-if(!defined('IS_DEBUG')){
-	define('IS_DEBUG', true);
-}
 if(!defined('APPLICATION_NAMESPACE')){
 	define('APPLICATION_NAMESPACE', 'App\\');
 }
-if(!defined('CONTROLLERS_NAMESPACE')){
+if (!defined('CONTROLLERS_NAMESPACE')) {
 	define('CONTROLLERS_NAMESPACE', APPLICATION_NAMESPACE . 'Controllers\\');
 }
-if(!defined('MODELS_NAMESPACE')){
+if (!defined('MODELS_NAMESPACE')) {
 	define('MODELS_NAMESPACE', APPLICATION_NAMESPACE . 'Models\\');
 }
-if(!defined('VIEWS_NAMESPACE')){
+if (!defined('VIEWS_NAMESPACE')) {
 	define('VIEWS_NAMESPACE', APPLICATION_NAMESPACE . 'Views\\');
+}
+if(!defined('IS_DEBUG')){
+	define('IS_DEBUG', true);
 }
 if(!defined('DEFAULT_CONTROLLER')){
 	define('DEFAULT_CONTROLLER', 'AppController');
