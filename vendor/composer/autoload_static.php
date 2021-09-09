@@ -6,11 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitffa6684903b6baa396768fac5623bf76
 {
-    public static $files = array (
-        '0b70c35d425d99ed8addc5172d3d24ba' => __DIR__ . '/..' . '/elfwap/devoir/src/functions.php',
-        '038dacc69d345b576f4d92a1fde0399c' => __DIR__ . '/..' . '/elfwap/devoir/src/constants.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'D' => 
         array (
@@ -30,33 +25,8 @@ class ComposerStaticInitffa6684903b6baa396768fac5623bf76
         ),
     );
 
-    public static $prefixesPsr0 = array (
-        'D' => 
-        array (
-            'Devoir\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/elfwap/devoir/src',
-            ),
-        ),
-    );
-
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Devoir\\Application' => __DIR__ . '/..' . '/elfwap/devoir/src/Application.php',
-        'Devoir\\Controller' => __DIR__ . '/..' . '/elfwap/devoir/src/Controller.php',
-        'Devoir\\Devoir' => __DIR__ . '/..' . '/elfwap/devoir/src/Devoir.php',
-        'Devoir\\Exception\\BadRequestException' => __DIR__ . '/..' . '/elfwap/devoir/src/Exception/BadRequestException.php',
-        'Devoir\\Exception\\DevoirException' => __DIR__ . '/..' . '/elfwap/devoir/src/Exception/DevoirException.php',
-        'Devoir\\Exception\\EventListenerException' => __DIR__ . '/..' . '/elfwap/devoir/src/Exception/EventListenerException.php',
-        'Devoir\\Exception\\MissingActionException' => __DIR__ . '/..' . '/elfwap/devoir/src/Exception/MissingActionException.php',
-        'Devoir\\Exception\\MissingControllerException' => __DIR__ . '/..' . '/elfwap/devoir/src/Exception/MissingControllerException.php',
-        'Devoir\\Exception\\MissingInheritanceException' => __DIR__ . '/..' . '/elfwap/devoir/src/Exception/MissingInheritanceException.php',
-        'Devoir\\Exception\\NotFoundException' => __DIR__ . '/..' . '/elfwap/devoir/src/Exception/NotFoundException.php',
-        'Devoir\\Interfaces\\ControllerEventInterface' => __DIR__ . '/..' . '/elfwap/devoir/src/Interfaces/ControllerEventInterface.php',
-        'Devoir\\Interfaces\\ControllerInterface' => __DIR__ . '/..' . '/elfwap/devoir/src/Interfaces/ControllerInterface.php',
-        'Devoir\\Interfaces\\DevoirEventInterface' => __DIR__ . '/..' . '/elfwap/devoir/src/Interfaces/DevoirEventInterface.php',
-        'Devoir\\Interfaces\\RequestInterface' => __DIR__ . '/..' . '/elfwap/devoir/src/Interfaces/RequestInterface.php',
-        'Devoir\\Interfaces\\ResponseInterface' => __DIR__ . '/..' . '/elfwap/devoir/src/Interfaces/ResponseInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -64,7 +34,6 @@ class ComposerStaticInitffa6684903b6baa396768fac5623bf76
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitffa6684903b6baa396768fac5623bf76::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitffa6684903b6baa396768fac5623bf76::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitffa6684903b6baa396768fac5623bf76::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitffa6684903b6baa396768fac5623bf76::$classMap;
 
         }, null, ClassLoader::class);

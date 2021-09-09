@@ -7,32 +7,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/elfwap/devoir.git",
-                "reference": "f7f825de4334e51373249575a22a85ec22ee7e75"
+                "reference": "cd330bfb5c78f33a8210bb1409bf133af68c823f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elfwap/devoir/zipball/f7f825de4334e51373249575a22a85ec22ee7e75",
-                "reference": "f7f825de4334e51373249575a22a85ec22ee7e75",
+                "url": "https://api.github.com/repos/elfwap/devoir/zipball/cd330bfb5c78f33a8210bb1409bf133af68c823f",
+                "reference": "cd330bfb5c78f33a8210bb1409bf133af68c823f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
             },
-            "time": "2021-09-04T09:24:34+00:00",
+            "time": "2021-09-08T15:57:48+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Devoir\\": "src"
-                },
-                "psr-0": {
-                    "Devoir\\": "src"
-                },
-                "files": [
-                    "src/functions.php",
-                    "src/constants.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
