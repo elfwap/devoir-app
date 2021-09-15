@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/elfwap/devoir.git",
-                "reference": "cd330bfb5c78f33a8210bb1409bf133af68c823f"
+                "reference": "9c0c6668b648fa1e47110e241d4a2b4fc515c8ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elfwap/devoir/zipball/cd330bfb5c78f33a8210bb1409bf133af68c823f",
-                "reference": "cd330bfb5c78f33a8210bb1409bf133af68c823f",
+                "url": "https://api.github.com/repos/elfwap/devoir/zipball/9c0c6668b648fa1e47110e241d4a2b4fc515c8ba",
+                "reference": "9c0c6668b648fa1e47110e241d4a2b4fc515c8ba",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
                 "issues": "https://github.com/elfwap/devoir/issues",
                 "source": "https://github.com/elftwap/devoir/"
             },
-            "time": "2021-09-08T15:57:48+00:00"
+            "time": "2021-09-13T21:47:05+00:00"
         }
     ],
     "packages-dev": [],

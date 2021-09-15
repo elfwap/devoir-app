@@ -28,6 +28,8 @@
 		}
 	],
 	"support" : {
-		"email" : "elftech.inc@gmail.com"
+		"email" : "elftech.inc@gmail.com",
+		"issues" : "https://github.com/elfwap/devoir-app/issues/",
+		"source" : "https://github.com/elfwap/devoir-app/"
 	}
 }
