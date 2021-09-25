@@ -16,7 +16,9 @@
 	"description" : "Devoir PHP Framework",
 	"require" : {
 		"php" : ">=7.4",
-		"elfwap/devoir" : "dev-master"
+		"elfwap/devoir" : "dev-master",
+		"friendsofphp/php-cs-fixer": "dev-master",
+		"squizlabs/php_codesniffer": "4.0.x-dev"
 	},
 	"minimum-stability" : "dev",
 	"license" : "MIT",
