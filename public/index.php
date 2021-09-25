@@ -10,5 +10,5 @@ try{
 }
 catch (DevoirException $dexcept)
 {
-	
+	print_r($dexcept->getMessage());
 }

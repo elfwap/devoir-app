@@ -14,7 +14,7 @@ class ArticlesController extends Controller
 	public function index($a, $b){
 		echo $a . '<br />';
 		echo $b . '<br />';
-		return $this->redirectToAction('web');
+		return $this->redirectToAction('web', 'No reason');
 	}
 	public function onInitialize(DevoirEventInterface $event){
 		echo 'init <br />';
