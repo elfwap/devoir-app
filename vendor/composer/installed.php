@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '789a55d2380c925a463d6e9c1c3423e14252fb3f',
+        'reference' => '6524d2bf8e6966f3c73288825d92c5ff3f166f23',
         'name' => 'elfwap/devoir-app',
         'dev' => true,
     ),
@@ -56,7 +56,7 @@
             'aliases' => array(
                 0 => '9999999-dev',
             ),
-            'reference' => 'c0ca9e4e804a5ef7e516353b97a82752ac870877',
+            'reference' => 'f17461846eb23e361f0dbf47de29f98f025c1ad4',
             'dev_requirement' => false,
         ),
         'elfwap/devoir-app' => array(
@@ -65,7 +65,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '789a55d2380c925a463d6e9c1c3423e14252fb3f',
+            'reference' => '6524d2bf8e6966f3c73288825d92c5ff3f166f23',
             'dev_requirement' => false,
         ),
         'friendsofphp/php-cs-fixer' => array(
@@ -76,7 +76,7 @@
             'aliases' => array(
                 0 => '9999999-dev',
             ),
-            'reference' => '5b298e5f53c1509dcf2aa27f2d9f909bb1862903',
+            'reference' => '80e0efda140385c29b7aeaa3a9fd98b1de745e04',
             'dev_requirement' => false,
         ),
         'php-cs-fixer/diff' => array(

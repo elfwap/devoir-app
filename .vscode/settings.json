@@ -2,10 +2,27 @@
 	"cSpell.words": [
 		"acerr",
 		"actionx",
+		"actn",
 		"ancest",
 		"controllerx",
 		"paramsx",
 		"prms",
 		"reflectm"
+	],
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "devoirPHP ModelDB",
+			"group": "devoir",
+			"database": "devoir_db",
+			"username": "mutaab",
+			"password": "mutaab"
+		}
 	]
 }

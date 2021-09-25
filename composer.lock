@@ -306,12 +306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/elfwap/devoir.git",
-                "reference": "c0ca9e4e804a5ef7e516353b97a82752ac870877"
+                "reference": "f17461846eb23e361f0dbf47de29f98f025c1ad4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elfwap/devoir/zipball/c0ca9e4e804a5ef7e516353b97a82752ac870877",
-                "reference": "c0ca9e4e804a5ef7e516353b97a82752ac870877",
+                "url": "https://api.github.com/repos/elfwap/devoir/zipball/f17461846eb23e361f0dbf47de29f98f025c1ad4",
+                "reference": "f17461846eb23e361f0dbf47de29f98f025c1ad4",
                 "shasum": ""
             },
             "require": {
@@ -351,7 +351,7 @@
                 "issues": "https://github.com/elfwap/devoir/issues",
                 "source": "https://github.com/elftwap/devoir/"
             },
-            "time": "2021-09-25T01:10:17+00:00"
+            "time": "2021-09-25T23:39:53+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",
@@ -359,12 +359,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "5b298e5f53c1509dcf2aa27f2d9f909bb1862903"
+                "reference": "80e0efda140385c29b7aeaa3a9fd98b1de745e04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/5b298e5f53c1509dcf2aa27f2d9f909bb1862903",
-                "reference": "5b298e5f53c1509dcf2aa27f2d9f909bb1862903",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/80e0efda140385c29b7aeaa3a9fd98b1de745e04",
+                "reference": "80e0efda140385c29b7aeaa3a9fd98b1de745e04",
                 "shasum": ""
             },
             "require": {
@@ -442,7 +442,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-09-23T08:47:17+00:00"
+            "time": "2021-09-25T11:55:33+00:00"
         },
         {
             "name": "php-cs-fixer/diff",
