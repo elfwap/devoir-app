@@ -7,18 +7,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/elfwap/devoir.git",
-                "reference": "f17461846eb23e361f0dbf47de29f98f025c1ad4"
+                "reference": "d4f6812f19c542da6bad1d1da451ae515dc7bc82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elfwap/devoir/zipball/f17461846eb23e361f0dbf47de29f98f025c1ad4",
-                "reference": "f17461846eb23e361f0dbf47de29f98f025c1ad4",
+                "url": "https://api.github.com/repos/elfwap/devoir/zipball/d4f6812f19c542da6bad1d1da451ae515dc7bc82",
+                "reference": "d4f6812f19c542da6bad1d1da451ae515dc7bc82",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
             },
-            "time": "2021-09-25T23:39:53+00:00",
+            "time": "2021-09-30T19:24:48+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "dist",

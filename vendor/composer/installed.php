@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '90fbb3a0454d55294c19c6ff8131a20e698cfe59',
+        'reference' => '44395c7d4327be192f0b0ebaffe9311659bfedb9',
         'name' => 'elfwap/devoir-app',
         'dev' => true,
     ),
@@ -18,7 +18,7 @@
             'aliases' => array(
                 0 => '9999999-dev',
             ),
-            'reference' => 'f17461846eb23e361f0dbf47de29f98f025c1ad4',
+            'reference' => 'd4f6812f19c542da6bad1d1da451ae515dc7bc82',
             'dev_requirement' => false,
         ),
         'elfwap/devoir-app' => array(
@@ -27,7 +27,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '90fbb3a0454d55294c19c6ff8131a20e698cfe59',
+            'reference' => '44395c7d4327be192f0b0ebaffe9311659bfedb9',
             'dev_requirement' => false,
         ),
     ),
