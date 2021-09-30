@@ -3,11 +3,19 @@
 		"acerr",
 		"actionx",
 		"actn",
+		"actnx",
 		"ancest",
 		"controllerx",
+		"ctrlx",
 		"paramsx",
 		"prms",
-		"reflectm"
+		"prmsx",
+		"reflectm",
+		"skey",
+		"subkeys",
+		"svalue",
+		"tperr",
+		"userpass"
 	],
 	"sqltools.connections": [
 		{
