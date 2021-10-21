@@ -3,13 +3,26 @@
 		"acerr",
 		"actionx",
 		"actn",
+		"actnexp",
 		"actnx",
 		"ancest",
+		"avalue",
 		"controllerx",
+		"ctrlexp",
 		"ctrlx",
+		"cvalue",
+		"kvalue",
+		"minc",
 		"paramsx",
 		"prms",
 		"prmsx",
+		"pthexp",
+		"pvalue",
+		"qarr",
+		"qkey",
+		"qresexp",
+		"qryexp",
+		"qvalue",
 		"reflectm",
 		"skey",
 		"subkeys",
@@ -32,5 +45,6 @@
 			"username": "mutaab",
 			"password": "mutaab"
 		}
-	]
+	],
+	"cmake.configureOnOpen": false
 }
