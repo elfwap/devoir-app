@@ -1,13 +1,14 @@
-# Uncomment the following to prevent the httpoxy vulnerability
+# Uncomment the following to prevent the http proxy vulnerability
 # See: https://httpoxy.org/
 #<IfModule mod_headers.c>
 #    RequestHeader unset Proxy
 #</IfModule>
-
+# disable directory listing
+Options All -Indexes
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteRule    ^(\.well-known/.*)$ $1 [L]
     RewriteRule    ^$    public/    [L]
-    RewriteRule    (.*) public/$1    [L]
-</IfModule>
+    RewriteRule    ^(.*)$ public/$1    [L]
 
+</IfModule>
