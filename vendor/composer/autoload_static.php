@@ -29,6 +29,7 @@ class ComposerStaticInitffa6684903b6baa396768fac5623bf76
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'DevoirApp\\Application' => __DIR__ . '/../..' . '/src/Application.php',
         'DevoirApp\\Controllers\\ArticlesController' => __DIR__ . '/../..' . '/src/Controllers/ArticlesController.php',
+        'DevoirApp\\Controllers\\ResourcesController' => __DIR__ . '/../..' . '/src/Controllers/ResourcesController.php',
         'Devoir\\Application' => __DIR__ . '/..' . '/elfwap/devoir/src/Application.php',
         'Devoir\\BasicRequest' => __DIR__ . '/..' . '/elfwap/devoir/src/BasicRequest.php',
         'Devoir\\Configuration' => __DIR__ . '/..' . '/elfwap/devoir/src/Configuration.php',

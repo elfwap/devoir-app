@@ -9,6 +9,7 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'DevoirApp\\Application' => $baseDir . '/src/Application.php',
     'DevoirApp\\Controllers\\ArticlesController' => $baseDir . '/src/Controllers/ArticlesController.php',
+    'DevoirApp\\Controllers\\ResourcesController' => $baseDir . '/src/Controllers/ResourcesController.php',
     'Devoir\\Application' => $vendorDir . '/elfwap/devoir/src/Application.php',
     'Devoir\\BasicRequest' => $vendorDir . '/elfwap/devoir/src/BasicRequest.php',
     'Devoir\\Configuration' => $vendorDir . '/elfwap/devoir/src/Configuration.php',
