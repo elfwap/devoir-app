@@ -2,7 +2,7 @@
 namespace DevoirApp\Controllers;
 
 use Devoir\Controller;
-use Devoir\Interfaces\DevoirEventInterface;
+use Devoir\Interfaces\{DevoirEventInterface, ControllerEventInterface};
 
 /**
  *
@@ -11,20 +11,33 @@ use Devoir\Interfaces\DevoirEventInterface;
  */
 class ArticlesController extends Controller
 {
-	public function index($a, $b){
-		echo $a . '<br />';
-		echo $b . '<br />';
-		return $this->basic_response->redirectToAction('web');
+	public function index(...$a){
+		$this->setViewVar('admin', "hello")->setViewVar(compact('a'));
+		$this->setView("ignore", "ignore", "App");
+		return $this;
 	}
-	public function onInitialize(DevoirEventInterface $event){
-		echo 'init <br />';
-	}
-
-	/**
-	 */
-	function __destruct()
+	public function onInitialize(DevoirEventInterface $event)
 	{
-
-		// TODO - Insert your code here
+	}
+	public function beforeRunUp(ControllerEventInterface $event)
+	{ 
+	}
+	public function afterRunUp(ControllerEventInterface $event)
+	{
+	}
+	public function beforeDispatch(ControllerEventInterface $event)
+	{
+	}
+	public function afterDispatch(ControllerEventInterface $event)
+	{
+	}
+	public function beforeManifest(ControllerEventInterface $event)
+	{
+	}
+	public function afterManifest(ControllerEventInterface $event)
+	{
+	}
+	public function onTerminate(DevoirEventInterface $event)
+	{
 	}
 }

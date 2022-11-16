@@ -12,8 +12,6 @@ class AppView extends View
 	 */
 	public function afterFrame(\Devoir\Interfaces\ViewEventInterface $event)
 	{
-		// TODO Auto-generated method stub
-		
 	}
 
 	/**
@@ -22,8 +20,6 @@ class AppView extends View
 	 */
 	public function afterLayout(\Devoir\Interfaces\ViewEventInterface $event)
 	{
-		// TODO Auto-generated method stub
-		
 	}
 
 	/**
@@ -32,8 +28,6 @@ class AppView extends View
 	 */
 	public function afterRender(\Devoir\Interfaces\ViewEventInterface $event)
 	{
-		// TODO Auto-generated method stub
-		
 	}
 
 	/**
@@ -42,8 +36,6 @@ class AppView extends View
 	 */
 	public function beforeFrame(\Devoir\Interfaces\ViewEventInterface $event)
 	{
-		// TODO Auto-generated method stub
-		
 	}
 
 	/**
@@ -51,9 +43,7 @@ class AppView extends View
 	 * @see \Devoir\View::beforeLayout()
 	 */
 	public function beforeLayout(\Devoir\Interfaces\ViewEventInterface $event)
-	{
-		// TODO Auto-generated method stub
-		
+	{	
 	}
 
 	/**
@@ -62,8 +52,6 @@ class AppView extends View
 	 */
 	public function beforeRender(\Devoir\Interfaces\ViewEventInterface $event)
 	{
-		// TODO Auto-generated method stub
-		
 	}
 
 	/**
@@ -72,8 +60,6 @@ class AppView extends View
 	 */
 	public function onInitialize(\Devoir\Interfaces\DevoirEventInterface $event)
 	{
-		// TODO Auto-generated method stub
-		
 	}
 
 	/**
@@ -82,19 +68,6 @@ class AppView extends View
 	 */
 	public function onTerminate(\Devoir\Interfaces\DevoirEventInterface $event)
 	{
-		// TODO Auto-generated method stub
-		
 	}
-
-	/**
-	 * {@inheritDoc}
-	 * @see \Devoir\Devoir::getAncestors()
-	 */
-	public function getAncestors($object_or_class = null): array
-	{
-		// TODO Auto-generated method stub
-		return parent::getAncestors($object_or_class ?? static::class);
-	}
-
 	
 }
