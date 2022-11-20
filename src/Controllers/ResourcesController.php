@@ -13,10 +13,12 @@ use Devoir\Exception\{ForbiddenException, NotFoundException};
  */
 class ResourcesController extends Controller
 {
-	public function index(){
+	public function index()
+	{
 		throw new ForbiddenException(['Cannot access `root` of resources..']);
 	}
-	public function css(...$filename){
+	public function css(...$filename)
+	{
 		$cssDir = APP_CSS_PATH;
 		$fnarr = $filename;
 		$filename = $cssDir . DS . implode(DS, $filename);
@@ -37,7 +39,8 @@ class ResourcesController extends Controller
 			throw new NotFoundException('CSS file not found');
 		}
 	}
-	public function js(...$filename){
+	public function js(...$filename)
+	{
 		$jsDir = APP_JS_PATH;
 		$fnarr = $filename;
 		$filename = $jsDir . DS . implode(DS, $filename);
@@ -58,7 +61,8 @@ class ResourcesController extends Controller
 			throw new NotFoundException('Javascript file not found');
 		}
 	}
-	public function img(...$filename){
+	public function img(...$filename)
+	{
 		$imgDir = APP_IMG_PATH;
 		$fnarr = $filename;
 		$filename = $imgDir . DS . implode(DS, $filename);
@@ -78,5 +82,33 @@ class ResourcesController extends Controller
 		} else {
 			throw new NotFoundException('Image file not found');
 		}
+	}
+	public function file(...$filename)
+	{
+		$pubDir = APP_PUBLIC_PATH;
+		$fnarr = $filename;
+		$filename = $pubDir . DS . implode(DS, $filename);
+		$fnexp = explode('/', $this->basic_request->getPath());
+		if (count($fnarr) > 0) $fnarr[count($fnarr) - 1] = $fnexp[count($fnexp) - 1];
+		$filename = urldecode($filename);
+		$filename2 = $pubDir . DS .implode(DS, $fnarr);
+		$filename2 = urldecode($filename2);
+		if (file_exists($filename)) {
+			header('Content-Type: ' . mime_content_type($filename));
+			echo(file_get_contents($filename));
+		} elseif (file_exists($filename2)) {
+			header('Content-Type: ' .mime_content_type($filename2));
+			echo(file_get_contents($filename2));
+		} else {
+			throw new NotFoundException();
+		}
+	}
+	public function rand($filename) 
+	{
+		
+	}
+	public function crypt($filename)
+	{
+		
 	}
 }
