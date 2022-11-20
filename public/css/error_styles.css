@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+	font-family: tahoma;
+}
+div#container {
+	position: absolute;
+	height: 70%;
+	top: 15%;
+	bottom: 15%;
+	text-align: center;
+	width: 70%;
+	left: 15%;
+	right: 15%;
+}
+#title {
+	font-family: "Times New Roman" !important;
+}
+#code {
+	font-size: 10em;
+}
+#message {
+	overflow-y: scroll;
+	width: 100% !important;
+}
+@media (max-width: 400px) {
+	div#container {
+		height: 90%;
+		width: 90%;
+		top: 5%;
+		left: 5%;
+		bottom: 5%;
+		right: 5%;
+	}
+	#message {
+		font-size: 10px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#code {
+		font-size: 5em;
+	}
+}
+
+@media (max-width: 700px) {
+	div#container {
+		height: 80%;
+		width: 80%;
+		top: 10%;
+		left: 10%;
+		bottom: 10%;
+		right: 10%;
+	}
+}
