@@ -1,0 +1,75 @@
+/**
+* Edited to fit-in in the current project requirements.
+* to take it back to the original replace 'x' with 'w3'
+*
+*/
+.x-theme-l5 {color:#000 !important; background-color:#fffbf0 !important}
+.x-theme-l4 {color:#000 !important; background-color:#fff3cd !important}
+.x-theme-l3 {color:#000 !important; background-color:#ffe69b !important}
+.x-theme-l2 {color:#000 !important; background-color:#ffda69 !important}
+.x-theme-l1 {color:#000 !important; background-color:#ffcd37 !important}
+.x-theme-d1 {color:#000 !important; background-color:#eab000 !important}
+.x-theme-d2 {color:#fff !important; background-color:#d09c00 !important}
+.x-theme-d3 {color:#fff !important; background-color:#b68900 !important}
+.x-theme-d4 {color:#fff !important; background-color:#9c7500 !important}
+.x-theme-d5 {color:#fff !important; background-color:#826200 !important}
+
+.x-theme-light {color:#000 !important; background-color:#fffbf0 !important}
+.x-theme-dark {color:#fff !important; background-color:#826200 !important}
+.x-theme-action {color:#fff !important; background-color:#826200 !important}
+
+.x-theme {color:#000 !important; background-color:#ffc107 !important}
+/* added */
+.x-theme-amber {color:#000 !important; background-color:#ffc107 !important}
+/* end */
+.x-text-theme {color:#ffc107 !important}
+.x-border-theme {border-color:#ffc107 !important}
+
+.x-hover-theme:hover {color:#000 !important; background-color:#ffc107 !important}
+.x-hover-text-theme:hover {color:#ffc107 !important}
+.x-hover-border-theme:hover {border-color:#ffc107 !important}
+/**
+* added content below
+*/
+:root {
+	--x-theme: #ffc107;
+	--x-theme-l5: #fffbf0;
+	--x-theme-l4: #fff3cd;
+	--x-theme-l3: #ffe69b;
+	--x-theme-l2: #ffda69;
+	--x-theme-l1: #ffcd37;
+	--x-theme-d1: #eab000;
+	--x-theme-d2: #d09c00;
+	--x-theme-d3: #b68900;
+	--x-theme-d4: #9c7500;
+	--x-theme-d5: #826200;
+}
+.x-hover-theme-l5:hover {color:#000 !important; background-color:#fffbf0 !important}
+.x-hover-theme-l4:hover {color:#000 !important; background-color:#fff3cd !important}
+.x-hover-theme-l3:hover {color:#000 !important; background-color:#ffe69b !important}
+.x-hover-theme-l2:hover {color:#000 !important; background-color:#ffda69 !important}
+.x-hover-theme-l1:hover {color:#000 !important; background-color:#ffcd37 !important}
+.x-hover-theme-d1:hover {color:#000 !important; background-color:#eab000 !important}
+.x-hover-theme-d2:hover {color:#fff !important; background-color:#d09c00 !important}
+.x-hover-theme-d3:hover {color:#fff !important; background-color:#b68900 !important}
+.x-hover-theme-d4:hover {color:#fff !important; background-color:#9c7500 !important}
+.x-hover-theme-d5:hover {color:#fff !important; background-color:#826200 !important}
+
+.x-hover-theme-light:hover {color:#000 !important; background-color:#fffbf0 !important}
+.x-hover-theme-dark:hover {color:#fff !important; background-color:#826200 !important}
+.x-hover-theme-action:hover {color:#fff !important; background-color:#826200 !important}
+
+.x-focus-theme-l5:focus {color:#000 !important; background-color:#fffbf0 !important}
+.x-focus-theme-l4:focus {color:#000 !important; background-color:#fff3cd !important}
+.x-focus-theme-l3:focus {color:#000 !important; background-color:#ffe69b !important}
+.x-focus-theme-l2:focus {color:#000 !important; background-color:#ffda69 !important}
+.x-focus-theme-l1:focus {color:#000 !important; background-color:#ffcd37 !important}
+.x-focus-theme-d1:focus {color:#000 !important; background-color:#eab000 !important}
+.x-focus-theme-d2:focus {color:#fff !important; background-color:#d09c00 !important}
+.x-focus-theme-d3:focus {color:#fff !important; background-color:#b68900 !important}
+.x-focus-theme-d4:focus {color:#fff !important; background-color:#9c7500 !important}
+.x-focus-theme-d5:focus {color:#fff !important; background-color:#826200 !important}
+
+.x-focus-theme-light:focus {color:#000 !important; background-color:#fffbf0 !important}
+.x-focus-theme-dark:focus {color:#fff !important; background-color:#826200 !important}
+.x-focus-theme-action:focus {color:#fff !important; background-color:#826200 !important}
