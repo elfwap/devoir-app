@@ -17,19 +17,19 @@ if (!isset($ht_accessed)) {
 try {
 	$app = new Application(dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
 } catch (BadRequestException $badexp) {
-	$ctrl = new Controller('errors', 'fours', [$badexp->getCode(), $badexp->getMessage(), $badexp->getLine(), $badexp->getFile()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
+	$ctrl = new Controller('errors', 'fours', [$badexp->getCode(), $badexp->getMessage()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
 	$ctrl->run();
 } catch (ForbiddenException $forexp) {
-	$ctrl = new Controller('errors', 'fours', [$forexp->getCode(), $forexp->getMessage(), $forexp->getLine(), $forexp->getFile()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
+	$ctrl = new Controller('errors', 'fours', [$forexp->getCode(), $forexp->getMessage()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
 	$ctrl->run();
 } catch (NotFoundException $notexp) {
 	$ctrl = new Controller('errors', 'fours', [$notexp->getCode(), $notexp->getMessage(), $notexp->getLine(), $notexp->getFile()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
 	$ctrl->run();
 } catch (Client4XXException $c400exp) {
-	$ctrl = new Controller('errors', 'fours', [$c400exp->getCode(), $c400exp->getMessage(), $c400exp->getLine(), $c400exp->getFile()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
+	$ctrl = new Controller('errors', 'fours', [$c400exp->getCode(), $c400exp->getMessage()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
 	$ctrl->run();
 } catch (Server5XXException $s500exp) {
-	$ctrl = new Controller('errors', 'fives', [$s500exp->getCode(), $s500exp->getMessage(), $s500exp->getLine(), $s500exp->getFile()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
+	$ctrl = new Controller('errors', 'fives', [$s500exp->getCode(), $s500exp->getMessage()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
 	$ctrl->run();
 } catch (DevoirException $dexcept) {
 	$ctrl = new Controller('errors', 'gens', [$dexcept->getCode(), 'Devoir Exception', $dexcept->getMessage(), $dexcept->getLine(), $dexcept->getFile()], dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'system');
