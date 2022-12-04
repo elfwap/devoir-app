@@ -32,6 +32,7 @@ class ResourcesController extends Controller
 			header('Content-Type: text/css');
 			require $filename;
 		} elseif (file_exists($filename2)) {
+			print_r($filename2);
 			header('Accept-Ranges: bytes');
 			header('Content-Type: text/css');
 			require $filename2;

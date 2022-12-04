@@ -18,11 +18,7 @@ use Devoir\Exception\MissingViewClassException;
 class ArticlesController extends Controller
 {
 	public function index(...$a){
-		$this->setViewVar('admin', "hello")->setViewVar(compact('a'));
-		$this->setView("app", "ignore", "App");
-		echo "<pre>";
-		print_r($this->getConfigData('error'));
-		echo "</pre>";
+		$this->setTitle('Articles > Index');
 		return $this;
 	}
 	public function onInitialize(DevoirEventInterface $event)

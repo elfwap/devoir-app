@@ -14,7 +14,7 @@ class ErrorsController extends Controller
 	{
 		$this->setView('error', 'error', 'error');
 	}
-	public function fours($code, $message, $line, $file)
+	public function fours($code, $message)
 	{
 		$this->setView('error', 'error', 'error');
 		$title = "Client Error";
@@ -30,7 +30,7 @@ class ErrorsController extends Controller
 		$this->setViewVar(compact('error'));
 		return $this;
 	}
-	public function fives($code, $message, $line, $file)
+	public function fives($code, $message)
 	{
 		$this->setView('error', 'error', 'error');
 		$title = "Server Error";
